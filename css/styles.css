@@ -1,0 +1,48 @@
+*{
+  margin: 0px auto;
+  padding: 0;
+  width: 1024px;
+  height: 2048px;
+
+}
+
+body{
+  background-color: white;
+   margin: 0px auto;
+  padding: 0;
+  width: 1024px;
+  height: 2048px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+header{
+  height: 10%;
+  background-color:white ;
+  margin: 20px auto;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 2px auto; */
+
+}
+header div{
+  width: 49% ;
+  height: 100%;
+  background-color: orange;
+  border: 5px solid white;
+  float: left; 
+}
+
+header div + div{
+  height: 100%;
+  width: 49% ;
+  background-color: orange;
+  border: 5px solid white;
+  float: right; 
+}
+#section1{
+  height: 25%;
+  width: 99%;
+  background-color: greenyellow;
+}
