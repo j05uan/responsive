@@ -137,7 +137,7 @@ footer div{
     }
   body{
     width: 321px;
-    height: 6426px;
+    height: 642px;
     margin: 0 px auto;
     padding: 0px;
     display: flex;
@@ -145,7 +145,7 @@ footer div{
     flex-wrap: wrap;
   } 
   header{
-    height: 27%;
+    height: 15%;
     background-color:white ;
     margin: 20px auto;
     float: left;
@@ -165,7 +165,7 @@ footer div{
     height: 10%;
   }
   #section2{
-    height: 40%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -177,7 +177,7 @@ footer div{
     display: flex;
   }
   footer{
-    height: 10%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -185,7 +185,7 @@ footer div{
   }
   footer div{
     background-color: gray;
-    height: 100%;
+    height: 24%;
     width: 100%;
     flex-direction: column;
   } 
