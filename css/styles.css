@@ -133,7 +133,7 @@ footer div{
 @media (min-width:0px) and (max-width:321px){
   *{
     width: 321px;
-    height: 6426px;
+    height: 642px;
     }
   body{
     width: 321px;
@@ -159,7 +159,6 @@ footer div{
     height: 48%;
     background-color: orange;
     border: 5px solid white;
-    float: flex;
     display: flex;
   }
   #section1{
