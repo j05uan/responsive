@@ -1,9 +1,3 @@
-*{
-  margin: 0px auto;
-  padding: 0;
-  width: 1024px;
-  height: 2048px;
-}
 
 body{
   background-color: white;
@@ -70,10 +64,6 @@ footer div{
 /* Reposive */
 /* desde 1024 px a 768 */
 @media (min-width:321px) and (max-width:768px){
-  *{
-    width: 768px;
-    height: 1476px;
-    }
   body{
     width: 768px;
     height: 1476px;
@@ -131,10 +121,6 @@ footer div{
 }
 
 @media (min-width:0px) and (max-width:321px){
-  *{
-    width: 321px;
-    height: 642px;
-    }
   body{
     width: 321px;
     height: 642px;
