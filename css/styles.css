@@ -66,15 +66,14 @@ footer div{
   height: 100%;
   background-color: gray;
   border: 3px solid white;
-  margin: 3px auto; 
+  margin: 3px auto; }
 /* Reposive */
 /* desde 1024 px a 768 */
-@media(main-width:321px) and (max-width:768px){
+@media (min-width:321px) and (max-width:768px){
   *{
     width: 768px;
     height: 1476px;
     }
-  }
   body{
     width: 768px;
     height: 1476px;
@@ -85,22 +84,108 @@ footer div{
     flex-wrap: wrap;
   } 
   header{
-    height: 15%;
+    height: 17%;
     background-color:white ;
     margin: 20px auto;
     float: left;
     display: flex;
     justify-content: space-between;
-    /* flex-align: column; */
+    flex-direction: column;
 
   }
   header div{
-    width: 100% ;
+    width: 99% ;
     height: 48%;
     background-color: orange;
     border: 5px solid white;
     float: flex;
     display: flex;
   }
+  #section1{
+    height: 25%;
+  }
+  #section2{
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #section2 div{
+    width:  765px;
+    height: 32%;
+    float: flex;
+    display: flex;
+  }
+  footer{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: left;
+  }
+  footer div{
+    width: 48%;
+    height: 48%;
+    display: flex;
+    float: left;
+  }
+}
 
+@media (min-width:0px) and (max-width:321px){
+  *{
+    width: 321px;
+    height: 6426px;
+    }
+  body{
+    width: 321px;
+    height: 6426px;
+    margin: 0 px auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } 
+  header{
+    height: 27%;
+    background-color:white ;
+    margin: 20px auto;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+  }
+  header div{
+    width: 99% ;
+    height: 48%;
+    background-color: orange;
+    border: 5px solid white;
+    float: flex;
+    display: flex;
+  }
+  #section1{
+    height: 10%;
+  }
+  #section2{
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #section2 div{
+    width:  319px;
+    height: 32%;
+    float: flex;
+    display: flex;
+  }
+  footer{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: left;
+  }
+  footer div{
+    background-color: gray;
+    
 }
